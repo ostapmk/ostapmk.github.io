@@ -1,0 +1,37 @@
+base_url = "https://ostapmk.github.io"
+
+theme = "simple-dev-blog"
+
+compile_sass = true
+
+title = "Ostap's Software Engineering Blog"
+description = "Thoughts on different topics I'm interested in."
+
+generate_feed = true
+taxonomies = [
+    { name = "tags" }
+]
+
+[markdown]
+highlight_code = true
+
+[extra]
+nav = [
+    { name = "About", path = "/about/" },
+    { name = "Blog", path = "/blog/" }
+]
+
+profile_large = "profile.jpg"
+
+accent = "#611c3c"
+accent_light = "#732147"
+
+author = "ostapmk"
+
+footer_page = """
+© 2021, all rights reserved
+"""
+
+not_found_message = """
+Oops. Requested page not found.
+"""
